@@ -5,13 +5,13 @@ setInterval(() => {
     const endChat = Array.from(document.querySelector('ul').childNodes).at('-1')
 
     if (endChat.querySelector('p')) {
-      document.querySelector('title').innerText = 'ChatKOOL -- end chat'
+      document.querySelector('title').innerText = 'ChatKOOL -- chat ended'
       document.querySelector("link[rel*='icon']").href = chrome.runtime.getURL('icons/favicon-end.ico')
       return
     }
 
     if (messageNode.querySelector('span') && messageNode.querySelector('span').style.backgroundColor === 'lightgray') {
-      document.querySelector('title').innerText = '* ChatKOOL -- message'
+      document.querySelector('title').innerText = '* ChatKOOL -- new message'
       document.querySelector("link[rel*='icon']").href = chrome.runtime.getURL('icons/favicon-message.ico')
     } else if (messageNode.querySelector('svg')) {
       document.querySelector('title').innerText = 'ChatKOOL -- typing'
