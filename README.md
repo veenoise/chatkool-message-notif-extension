@@ -4,7 +4,7 @@ A browser extension that provides visual notifications when someone messages you
 
 ## Features
 
-- **Message Notifications**: Changes the title to "* ChatKOOL -- message" and updates the favicon when you receive a new message
+- **Message Notifications**: Changes the title to "* ChatKOOL -- new message" and updates the favicon when you receive a new message
 - **Typing Indicator**: Shows when the other person is typing
 - **End Chat Detection**: Detects when a chat session has ended
 - **Visual Feedback**: Dynamic favicon changes based on chat status
