@@ -2,6 +2,9 @@
 
 A browser extension that provides visual notifications when someone messages you on ChatKOOL by changing the page title and favicon.
 
+## Special Thanks
+- To **Lorraine Restua** — for your beauty and for being my endless motivation 💖.
+- [ChatKOOL](https://www.chatkool.com/) for providing the platform that inspired this extension
 ## Features
 
 - **Message Notifications**: Changes the title to "* ChatKOOL -- new message" and updates the favicon when you receive a new message
